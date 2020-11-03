@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-flow: column;
+}
+ul{
+    list-style: none;
+}
+h1{
+    margin-top: 30px;
+    align-self: center;
+}
+.ok{
+    align-self: center;
+    text-align: center;
+    margin: 50px;
+    width: 30%;
+    color: rgb(0, 80, 31);
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 240, 92, 0.795);
+}
+.no{
+    align-self: center;
+    text-align: center;
+    margin: 50px;
+    width: 30%;
+    color: rgb(80, 0, 0);
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 166, 166, 0.795);
+}
+
+.pas-grave{
+    padding: 15px;
+    align-self: center;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+
+}
+
+.button-list-jour{
+    cursor: pointer;
+    align-self: center;
+    width: 30%;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.0em;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+}
+ 
+.close-popup {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    }
+
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.flou {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 5;
+}
+.hidden {
+    display: none;
+}

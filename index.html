@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+        rel="stylesheet">
+    <link 
+        rel="stylesheet" 
+        href="style.css">
+</head>
+<body>
+
+    <h1>Dois-je m'habiller aujourd'hui ? 🤔</h1>
+
+    <div class="reponse">
+        <p class="reponse-text">Nonnnnn, c'est férié ! Slip chaussettes pour toute la journée !</p>
+    </div>
+    <div class="pas-grave">
+        <p class="compteur">Mais détend toi frérot! <br> Le prochain jour férié c'est dans <span class="nombre-jours">...</span> jour(s) 🗓 </p>
+        <ul class="list-jours">
+        </ul>
+    </div>
+    <button class="button-list-jour">Voir la liste des jours fériés de cette année 🇫🇷</button>
+    <div class="popup hidden">
+        <button class="close-popup">&times;</button>
+        <h1>liste des jours fériés de cette année 😍</h1>
+        <ul class="f-list"></ul>
+      </div>
+    <div class="flou hidden"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
